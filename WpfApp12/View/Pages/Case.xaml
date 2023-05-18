@@ -1,0 +1,106 @@
+﻿<Page x:Class="WpfApp12.View.Pages.Case"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp12.View.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="903" 
+      d:DesignWidth="1440"
+      FontFamily="Comic Sans MS">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="201*"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0"
+                Padding="75">
+            <StackPanel Orientation="Vertical"
+                        MouseDown="StackPanel_MouseDown">
+                <TextBlock Text="  О нас"
+                           Foreground="#4C29CC"
+                           FontSize="48"
+                           FontWeight="Bold"/>
+                <TextBlock Height="25"/>
+                <TextBlock Text="За более чем десятилетний опыт работы с сотнями успешных проектов все наши услуги ориентированы"
+                           FontSize="18"/>
+                <TextBlock Text="на достижение одной главной цели: увеличение доходов вашего бизнеса."
+                           FontSize="18"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="1"
+                Padding="100 0 100 0">
+            <Grid>
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="\Images\3.1.png"
+                           Height="100" Width="100"/>
+                        <TextBlock Width="40"/>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="Проверенная производительность"
+                                       FontSize="24"/>
+                            <TextBlock Height="10"/>
+                            <TextBlock Text="Наша команда, состоящая из более чем 275 экспертов, является одним из крупнейших агентств цифрового маркетинга в мире."
+                                       FontSize="16"/>
+                            <TextBlock Text="Мы сотрудничаем с лучшими компаниями, включая Google, Facebook, Bing и другие, чтобы предоставить нашим клиентам"
+                                       FontSize="16"/>
+                            <TextBlock Text="новейшие и лучшие маркетинговые технологии."
+                                       FontSize="16"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <TextBlock Height="50"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="\Images\3.2.png"
+                           Height="100" Width="100"/>
+                        <TextBlock Width="40"/>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="Прозрачное отслеживание рентабельности инвестиций"
+                                       FontSize="24"/>
+                            <TextBlock Height="10"/>
+                            <TextBlock Text="Нет необходимости пробираться через сложные таблицы при оценке вашей кампании. Все клиенты имеют доступ к нашей"
+                                       FontSize="16"/>
+                            <TextBlock Text="лучшей в своем классе платформе программного обеспечения для маркетинга, которая отслеживает даже мельчайшие"
+                                       FontSize="16"/>
+                            <TextBlock Text="детали каждой кампании."
+                                       FontSize="16"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <TextBlock Height="50"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="\Images\3.3.png"
+                           Height="100" Width="100"/>
+                        <TextBlock Width="40"/>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="Беспрецедентный рекорд трека"
+                                       FontSize="24"/>
+                            <TextBlock Height="10"/>
+                            <TextBlock Text="У нас коэффициент удержания клиентов составляет 91%, а рейтинг рекомендаций клиентов на 488% выше, чем в среднем по"
+                                       FontSize="16"/>
+                            <TextBlock Text="стране. Наши 550+ отзывов клиентов , переполненный чемодан с трофеями и отмеченная наградами культура - идеальный"
+                                       FontSize="16"/>
+                            <TextBlock Text="рецепт для успешной цифровой кампании."
+                                       FontSize="16"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <TextBlock Height="50"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="\Images\3.4.png"
+                           Height="100" Width="100"/>
+                        <TextBlock Width="40"/>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="Ведущие цифровые эксперты"
+                                       FontSize="24"/>
+                            <TextBlock Height="10"/>
+                            <TextBlock Text="Мы занимаемся дизайном и маркетингом веб-сайтов с 1995 года . Мы следим за последними и важнейшими тенденциями"
+                                       FontSize="16"/>
+                            <TextBlock Text="дизайна, но измеряем успешность запуска любого сайта по тому, насколько хорошо новый дизайн может повлиять на"
+                                       FontSize="16"/>
+                            <TextBlock Text="бизнес-цели. Мы создали более 1300 веб-сайтов во всех нишах, способствующих росту."
+                                       FontSize="16"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>
